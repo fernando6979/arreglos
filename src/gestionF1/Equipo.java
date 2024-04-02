@@ -39,4 +39,20 @@ public class Equipo {
         this.motor = motor;
         this.pilotos = new ArrayList<>();
     }
+
+    /**
+     * Agrega un piloto al equipo.
+     * @param piloto El piloto que se va a agregar al equipo.
+     */
+    public void agregarPiloto(Piloto piloto) {
+        pilotos.add(piloto);
+    }
+
+    /**
+     * Obtiene la lista de pilotos del equipo.
+     * @return La lista de pilotos del equipo.
+     */
+    public ArrayList<Piloto> getPilotos() {
+        return pilotos;
+    }
 }

@@ -23,4 +23,28 @@ public class Piloto {
         this.numeroCarrera = numeroCarrera;
         this.pais = pais;
     }
+
+    /**
+     * Obtiene el nombre del piloto.
+     * @return El nombre del piloto.
+     */
+    public String getNombre() {
+        return nombre;
+    }
+
+    /**
+     * Obtiene el numero de carrera del piloto.
+     * @return El numero de carrera del piloto.
+     */
+    public int getNumeroCarrera() {
+        return numeroCarrera;
+    }
+
+    /**
+     * Obtiene el pais del piloto.
+     * @return El pais del piloto.
+     */
+    public String getPais() {
+        return pais;
+    }
 }
