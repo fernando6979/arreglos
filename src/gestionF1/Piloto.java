@@ -47,4 +47,15 @@ public class Piloto {
     public String getPais() {
         return pais;
     }
+
+    /**
+     * Cambia la nacionalidad del piloto.
+     *
+     * @param nuevo que cambia la nacionalidad de la persona.
+     * @return la nueva nacionalidad del piloto.
+     */
+    public String setPais(String nuevo) {
+        this.pais = nuevo;
+        return nuevo;
+    }
 }
