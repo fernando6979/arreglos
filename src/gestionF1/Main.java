@@ -11,6 +11,7 @@ public class Main {
      * @param args Los argumentos de la linea de comandos.
      */
     public static void main(String[] args) {
+    	system.Out.println("Hola familia");
         // Crear equipos
         Equipo redBull = new Equipo("Red Bull", "Honda");
         Equipo mercedes = new Equipo("Mercedes", "Mercedes");
